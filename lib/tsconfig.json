@@ -1,0 +1,31 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "~seams/*": [
+                "seams/*",
+            ],
+            "lib/*": [
+                "./*"
+            ]
+        },
+        "outDir": "../dist/lib",
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmit": false,
+        "allowJs": false,
+        "checkJs": false,
+        "composite": true,
+        "declarationMap": true,
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.json",
+    ],
+    "exclude": [
+        "tsconfig.json",
+    ],
+}

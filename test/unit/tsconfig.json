@@ -1,0 +1,30 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "~seams/*": [
+                "../../lib/seams/*",
+            ],
+        },
+        "rootDir": ".",
+        "rootDirs": [
+            ".",
+            "../../lib",
+        ],
+        "types": [
+            "node",
+            "mocha",
+        ],
+        "outDir": "../../dist/lib",
+        "strict": false,
+        "noEmit": false,
+        "allowJs": false,
+        "checkJs": false,
+    },
+    "references": [
+        {
+            "path": "../../lib/",
+        },
+    ],
+}

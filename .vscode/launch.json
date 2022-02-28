@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mocha Tests",
+            "type": "pwa-node",
+            "request": "launch",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "--no-timeout",
+                "--colors",
+            ],
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js",
+            ],
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**/*.js",
+            ],
+            "smartStep": true,
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+    ],
+}

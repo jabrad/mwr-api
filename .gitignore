@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+npm-debug.log*
+
+/test-results.xml
+/coverage/
+/.nyc_output/
+/cdk.out/
+
+.env

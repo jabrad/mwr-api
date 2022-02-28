@@ -1,0 +1,39 @@
+{
+    "eslint.format.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "editor.rulers": [
+        90
+    ],
+
+    "mochaExplorer.require": [
+        "source-map-support/register",
+        "module-alias/register"
+    ],
+    "mochaExplorer.debuggerConfig": "Mocha Tests",
+
+    "yaml.customTags": [
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Join sequence"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "lib": [
+            "ES2019",
+            "ES2020.Promise",
+        ],
+        "strict": true,
+        "sourceMap": true,
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true,
+        "preserveWatchOutput": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "node",
+        ],
+    },
+}

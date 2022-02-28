@@ -1,0 +1,28 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "module": "ESNext",
+        "baseUrl": ".",
+        "paths": {
+            "~seams/*": [
+                "../../lib/seams/*",
+            ],
+            "lib/*": [
+                "../../lib/*",
+            ],
+        },
+        "rootDir": "../../",
+        "outDir": "../../dist/lambda",
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmit": false,
+        "allowJs": false,
+        "checkJs": false,
+        "sourceMap": false,
+    },
+    "include": [
+        "**/*.ts",
+    ],
+}
